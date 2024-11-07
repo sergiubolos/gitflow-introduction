@@ -12,6 +12,8 @@ def main():
         print("Result:", subtract(a, b))
     elif operation == '*':
         print("Result:", multiply(a, b))
+    elif operation == '/':
+        print("Result:", a / b)
     else:
         print("Operation not supported.")
 
